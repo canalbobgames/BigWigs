@@ -75,7 +75,7 @@ L.link_both = "%s ligado com %s"
 L.link_removed = "Ligação removida"
 
 -- Abbreviated numbers
-L.amount_one = "%dB" -- Billions 1,000,000,000
-L.amount_two = "%dM" -- Millions 1,000,000
-L.amount_three = "%dK" -- Thousands 1,000
---L.seconds = "%.1fs" -- 1.1 seconds
+L.amount_one = "%dB" -- Bilhões 1,000,000,000
+L.amount_two = "%dM" -- Milhões 1,000,000
+L.amount_three = "%dK" -- Milhares 1,000
+--L.seconds = "%.1fs" -- 1.1 segundos
