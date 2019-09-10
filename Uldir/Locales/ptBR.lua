@@ -1,16 +1,17 @@
 local L = BigWigs:NewBossLocale("MOTHER", "ptBR")
 if not L then return end
 if L then
-	--L.sideLaser = "(Side) Beams" -- short for: (location) Uldir Defensive Beam
-	--L.upLaser = "(Roof) Beams"
-	--L.mythic_beams = "Beams"
+	L.sideLaser = "(Lateral) Lasers" -- short for: (location) Uldir Defensive Beam
+	L.upLaser = "(Teto) Lasers"
+	L.mythic_beams = "Lasers"
 end
 
 L = BigWigs:NewBossLocale("Zek'voz, Herald of N'zoth", "ptBR")
 if L then
-	--L.surging_darkness_eruption = "Eruption (%d)"
-	--L.mythic_adds = "Mythic Adds"
-	--L.mythic_adds_desc = "Show timers for when the adds will spawn in Mythic (both Qiraji Warrior and Anub'ar Voidweaver spawn at the same time)."
+	L.surging_darkness_eruption = "Erupção (%d)"
+	L.mythic_adds = "Adds Míticos"
+	L.mythic_adds_desc = "Mostra temporizadores para quando os adds forem surgir em Mítico (both Qiraji Warrior and Anub'ar Voidweaver spawn at the same time)."
+
 end
 
 L = BigWigs:NewBossLocale("Zul", "ptBR")
