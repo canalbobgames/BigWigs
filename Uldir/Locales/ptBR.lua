@@ -10,43 +10,45 @@ L = BigWigs:NewBossLocale("Zek'voz, Herald of N'zoth", "ptBR")
 if L then
 	L.surging_darkness_eruption = "Erupção (%d)"
 	L.mythic_adds = "Adds Míticos"
-	L.mythic_adds_desc = "Mostra temporizadores para quando os adds forem surgir em Mítico (both Qiraji Warrior and Anub'ar Voidweaver spawn at the same time)."
+	L.mythic_adds_desc = "Mostra temporizadores para quando os adds forem surgir em Mítico (ambos Qiraji Warrior e Anub'ar Voidweaver surgem ao mesmo tempo)."
 
 end
 
 L = BigWigs:NewBossLocale("Zul", "ptBR")
 if L then
-	--L.crawg_msg = "Crawg" -- Short for 'Bloodthirsty Crawg'
-	--L.crawg_desc = "Warnings and timers for when the Bloodthirsty Crawg spawns."
+	L.crawg_msg = "Crorg" -- Short for 'Bloodthirsty Crawg'
+	L.crawg_desc = "Avisos e temporizadores para quando Crorg Sedento de Sangue surge."
 
-	--L.bloodhexer_msg = "Bloodhexer" -- Short for 'Nazmani Bloodhexer'
-	--L.bloodhexer_desc = "Warnings and timers for when the Nazmani Bloodhexer spawns."
+	L.bloodhexer_msg = "Bagateira Sanguínea" -- Short for 'Nazmani Bloodhexer'
+	L.bloodhexer_desc = "Avisos e temporizadores para quando Bagateira Sanguínea Nazmani surge."
 
-	--L.crusher_msg = "Crusher" -- Short for 'Nazmani Crusher'
-	--L.crusher_desc = "Warnings and timers for when the Nazmani Crusher spawns."
+	L.crusher_msg = "Esmagadora" -- Short for 'Nazmani Crusher'
+	L.crusher_desc = "Avisos e temporizadores para quando Esmagadora Nazmani surge."
 
-	--L.custom_off_decaying_flesh_marker = "Decaying Flesh Marker"
-	--L.custom_off_decaying_flesh_marker_desc = "Mark the enemy forces afflicted by Decaying Flesh with {rt8}, requires promoted or leader."
+	L.custom_off_decaying_flesh_marker = "Marcador de Carne em Decomposição"
+	L.custom_off_decaying_flesh_marker_desc = "Marca as forças inimigas infectadas por Carne em Decomposição com {rt8}, requer ajudante ou líder."
+	
 end
 
 L = BigWigs:NewBossLocale("Mythrax the Unraveler", "ptBR")
 if L then
-	--L.destroyer_cast = "%s (N'raqi Destroyer)" -- npc id: 139381
-	--L.xalzaix_returned = "Xalzaix returned!" -- npc id: 138324
-	--L.add_blast = "Add Blast"
-	--L.boss_blast = "Boss Blast"
+	L.destroyer_cast = "%s (Destruidor N'raqi)" -- npc id: 139381
+	L.xalzaix_returned = "Xalzaix retornou!" -- npc id: 138324
+	L.add_blast = "Explosão do Add"
+	L.boss_blast = "Explosão do Chefe"
 end
 
 L = BigWigs:NewBossLocale("G'huun", "ptBR")
 if L then
-	--L.orbs_deposited = "Orbs Deposited (%d/3) - %.1f sec"
-	--L.orb_spawning = "Orb Spawning"
-	--L.orb_spawning_side = "Orb Spawning (%s)"
-	--L.left = "Left"
-	--L.right = "Right"
+	L.orbs_deposited = "Orbes Depositados (%d/3) - %.1f seg"
+	L.orb_spawning = "Orbe Surgindo"
+	L.orb_spawning_side = "Orbe Surgindo (%s)"
+	L.left = "Esquerda"
+	L.right = "Direita"
 
-	--L.custom_on_fixate_plates = "Fixate icon on Enemy Nameplate"
-	--L.custom_on_fixate_plates_desc = "Show an icon on the target nameplate that is fixating on you.\nRequires the use of Enemy Nameplates. This feature is currently only supported by KuiNameplates."
+	L.custom_on_fixate_plates = "Fixa um ícone na Placa de Identificação Inimiga"
+	L.custom_on_fixate_plates_desc = "Mostra um ícone na placa de identificação do alvo que está fixado em você. \nRequer uso de Placas de Identificação Inimiga. Essa característica é atualmente suportada apenas pelo KuiNameplates."
+	
 end
 
 L = BigWigs:NewBossLocale("Uldir Trash", "ptBR")
