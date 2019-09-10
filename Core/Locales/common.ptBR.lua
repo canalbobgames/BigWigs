@@ -78,4 +78,4 @@ L.link_removed = "Ligação removida"
 L.amount_one = "%dB" -- Bilhões 1,000,000,000
 L.amount_two = "%dM" -- Milhões 1,000,000
 L.amount_three = "%dK" -- Mil 1,000
---L.seconds = "%.1fs" -- 1.1 segundos
+L.seconds = "%.1fs" -- 1.1 segundos
