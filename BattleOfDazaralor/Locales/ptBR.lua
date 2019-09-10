@@ -8,50 +8,50 @@ if L then
 	L.punisher = "Castigador Rastari"
 	L.vessel = "Receptáculo de Bwonsamdi"
 
-	--L.victim = "%s apunhalou VOCE com %s!"
-	--L.witness = "%s apunhalou %s com %s!"
+	L.victim = "%s apunhalou VOCE com %s!"
+	L.witness = "%s apunhalou %s com %s!"
 end
 
 L = BigWigs:NewBossLocale("Champion of the Light Horde", "ptBR")
 if L then
-	--L.disorient_desc = "Bar for the |cff71d5ff[Blinding Faith]|r cast.\nThis is probably the bar you want to have the countdown on." -- Blinding Faith = 283650
+	L.disorient_desc = "Barra para conjurar|cff71d5ff[Fé Cegante]|r.\nEssa provavelmente será a barra que você vai querer ter na contagem regressiva." -- Blinding Faith = 283650
 end
 
 L = BigWigs:NewBossLocale("Champion of the Light Alliance", "ptBR")
 if L then
-	--L.disorient_desc = "Bar for the |cff71d5ff[Blinding Faith]|r cast.\nThis is probably the bar you want to have the countdown on." -- Blinding Faith = 283650
+	L.disorient_desc = "Barra para conjurar |cff71d5ff[Fé Cegante]|r.\nEssa provavelmente será a barra que você vai querer ter na contagem regressiva." -- Blinding Faith = 283650
 end
 
 L = BigWigs:NewBossLocale("Jadefire Masters Horde", "ptBR")
 if L then
-	--L.custom_on_fixate_plates = "Stalking icon on Enemy Nameplate"
-	--L.custom_on_fixate_plates_desc = "Show an icon on the target nameplate that is stalking on you.\nRequires the use of Enemy Nameplates. This feature is currently only supported by KuiNameplates."
+	L.custom_on_fixate_plates = "Ícone de perseguição na placa de identificação inimiga"
+	L.custom_on_fixate_plates_desc = "Mostra um ícone na placa de identificação do alvo que esta perseguindo você. \n Requer o uso the Placa de Identificação Inimiga. Essa característica é atualmente só suportada por KuiNameplates." 
 
-	--L.absorb = "Absorver"
-	--L.absorb_text = "%s (|cff%s%.0f%%|r)"
-	--L.cast = "Conjurar"
-	--L.cast_text = "%.1fs (|cff%s%.0f%%|r)"
+	L.absorb = "Absorver"
+	L.absorb_text = "%s (|cff%s%.0f%%|r)"
+	L.cast = "Conjurar"
+	L.cast_text = "%.1fs (|cff%s%.0f%%|r)"
 
-	--L.interrupted_after = "%s interrompido por %s (%.1f segundos restantes)"
+	L.interrupted_after = "%s interrompido por %s (%.1f segundos restantes)"
 end
 
 L = BigWigs:NewBossLocale("Jadefire Masters Alliance", "ptBR")
 if L then
-	--L.custom_on_fixate_plates = "Stalking icon on Enemy Nameplate"
-	--L.custom_on_fixate_plates_desc = "Show an icon on the target nameplate that is stalking on you.\nRequires the use of Enemy Nameplates. This feature is currently only supported by KuiNameplates."
+	L.custom_on_fixate_plates = "Ícone de perseguição na placa de identificação inimiga"
+	L.custom_on_fixate_plates_desc = "Mostra um ícone na placa de identificação do alvo que esta perseguindo você. \n Requer o uso the Placa de Identificação Inimiga. Essa característica é atualmente só suportada por KuiNameplates."
 
-	--L.absorb = "Absorver"
-	--L.absorb_text = "%s (|cff%s%.0f%%|r)"
-	--L.cast = "Conjurar"
-	--L.cast_text = "%.1fs (|cff%s%.0f%%|r)"
+	L.absorb = "Absorver"
+	L.absorb_text = "%s (|cff%s%.0f%%|r)"
+	L.cast = "Conjurar"
+	L.cast_text = "%.1fs (|cff%s%.0f%%|r)"
 
-	--L.interrupted_after = "%s interrompido por %s (%.1f segundos restantes)"
+	L.interrupted_after = "%s interrompido por %s (%.1f segundos restantes)"
 end
 
 L = BigWigs:NewBossLocale("Opulence", "ptBR")
 if L then
-	--L.room = "Sala (%d/8)"
-	--L.no_jewel = "Sem Jóia:"
+	L.room = "Sala (%d/8)"
+	L.no_jewel = "Sem Jóia:"
 
 	--L.custom_on_fade_out_bars = "Fade out stage 1 bars"
 	--L.custom_on_fade_out_bars_desc = "Fade out bars which belong to the construct which isn't in your hall during stage 1."
@@ -102,16 +102,16 @@ end
 
 L = BigWigs:NewBossLocale("Lady Jaina Proudmoore", "ptBR")
 if L then
-	--L.starbord_ship_emote = "Um Corsário Kul Tireno se aproxima pelo lado de estibordo!"
-	--L.port_side_ship_emote = "Um Corsário Kul Tireno se aproxima pelo lado do porto!"
+	L.starbord_ship_emote = "Um Corsário Kul Tireno se aproxima pelo lado de estibordo!"
+	L.port_side_ship_emote = "Um Corsário Kul Tireno se aproxima pelo lado de bombordo!"
 
-	--L.starbord_txt = "Right Ship" -- starboard
-	--L.port_side_txt = "Left Ship" -- port
+	L.starbord_txt = "Direita do Barco" -- estibordo
+	L.port_side_txt = "Esquerda do Barco" -- bombordo
 
 	--L.custom_on_stop_timers = "Always show ability bars"
 	--L.custom_on_stop_timers_desc = "Jaina randomizes which off-cooldown ability she uses next. When this option is enabled, the bars for those abilities will stay on your screen."
 
-	--L.frozenblood_player = "%s (%d players)"
+	L.frozenblood_player = "%s (%d jogadores)"
 
-	--L.intermission_stage2 = "Stage 2 - %.1f sec"
+	L.intermission_stage2 = "Estágio 2 - %.1f seg"
 end
