@@ -116,14 +116,15 @@ L.COUNTDOWN = "Contagem Regressiva"
 L.COUNTDOWN_desc = "Se ativado, uma contagem regressiva sonora e visual será adicionado para os últimos 5 segundos. Imagine alguém contando regressivamente \"5... 4... 3... 2... 1...\" com um número grande no meio da tela."
 L.INFOBOX = L.infobox
 L.INFOBOX_desc = L.infobox_desc
---L.SOUND = "Sound"
---L.SOUND_desc = "Boss abilities usually play sounds to help you notice them. If you disable this option, none of the sounds attached to it will play."
---L.CASTBAR = "Cast Bars"
---L.CASTBAR_desc = "Cast bars are sometimes shown on certain bosses, usually to bring attention to a critical ability incoming. If this ability is accompanied by a cast bar that you want to hide, disable this option."
---L.SAY_COUNTDOWN = "Say Countdown"
---L.SAY_COUNTDOWN_desc = "Chat bubbles are easy to spot. BigWigs will use multiple say messages counting down to alert people nearby that an ability on you is about to expire."
---L.ME_ONLY_EMPHASIZE = "Emphasize (me only)"
---L.ME_ONLY_EMPHASIZE_desc = "Enabling this will emphasize any messages associated with this ability ONLY if it is casted on you, making them larger and more visible."
+L.SOUND = "Som"
+L.SOUND_desc = "Habilidades de chefes normalmente emitem sons para ajudar você a percebê-las. Se você desabilitar essa opção, nenhum dos sons atribuídos a elas tocará."
+L.CASTBAR = "Barras de Cast"
+L.CASTBAR_desc = "Barras de cast algumas vezes são mostradas em certos chefes, normalmente para atrair atenção para uma habilidade crítica que esta por vir. Se esta habilidade estiver acompanhada de uma barra de cast que você quer esconder, desative essa opção."
+L.SAY_COUNTDOWN = "Dizer Contagem Regressiva"
+L.SAY_COUNTDOWN_desc = "Bolhas de bate papo são faceis de se notar. BigWigs usará multiplas mensagens de contagem regressiva para alertar pessoas próximas que uma habilidade em você esta prestes a expirar."
+L.ME_ONLY_EMPHASIZE = "Enfatizar (eu apenas)"
+L.ME_ONLY_EMPHASIZE_desc = "Habilitando isso, irá enfatizar qualquer mensagem associada com essa habilidade APENAS se ela for conjurada em você, fazendo ela maior e mais visível."
+
 
 L.advanced = "Opções Avançadas"
 L.back = "<< Voltar"
